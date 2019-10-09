@@ -18,6 +18,10 @@
 		项目>	构建设置 中取消勾选 shadow build
 	3. snake_client 的配置在 client.h 中 ， snake_server 的配置在 config.h  
 		请进行必要配置(服务器ip 端口号等)后方可运行
+	4. snake_server 并不依赖qt 环境，可以使用项目中的 Makefile 文件 通过命令
+		make  // 进行编译
+		make clean  // 进行清理
+		./snake_server  // 运行
 ## 3. 已知bug 
 	1. 有时蛇的尾部一节会断掉并留在原地
 	2. 蛇经过自己的身体时会留下空白区域  （感觉像把自己的身体压到了地下）
