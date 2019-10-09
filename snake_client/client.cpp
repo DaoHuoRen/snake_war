@@ -147,7 +147,7 @@ void client::onReayRead()
                 int c_width = client_config_map["CLIENT_WIDTH"].toInt() * client_config_map["CLIENT_STEP"].toInt();
                 int c_height = client_config_map["CLIENT_HEIGHT"].toInt() * client_config_map["CLIENT_STEP"].toInt();
                 qDebug() << snake_name <<  c_width << "|" <<c_height;
-                this->resize(c_width,c_height);
+                this->setFixedSize(c_width,c_height);
             }else{
                 //数组
                 data_list = document.toVariant().toList();
