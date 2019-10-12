@@ -29,4 +29,4 @@
 	1. [linux下聊天demo支持私聊和群发](https://www.jianshu.com/p/0862ff14d273)
 	2. [qt 聊天室服务器端](https://github.com/Dgrefic/ServerDialog "qt 聊天室服务器端")
 	3. [qt 聊天室客户端](https://github.com/Dgrefic/ClientDialog "qt 聊天室客户端")
-	4. [c++11实现异步定时器](https://www.liangzl.com/get-article-detail-1788.html "c++11实现异步定时器")
+	4. [c++11实现异步定时器](https://www.cnblogs.com/gtarcoder/p/4924097.html "c++11实现异步定时器")
